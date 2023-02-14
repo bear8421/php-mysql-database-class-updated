@@ -838,3 +838,5 @@ $db->setLockMethod("READ")->lock(array("users", "log"));
 This will lock the tables **users** and **log** for **READ** access only.
 Make sure you use **unlock()* afterwards or your tables will remain locked!
 
+
+
