@@ -1,5 +1,5 @@
 {
-    "name": "thingengineer/mysqli-database-class",
+    "name": "bear8421/php-mysql-database-class-updated",
     "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements",
     "license": "GPL-3.0-or-later",
     "authors": [
@@ -14,12 +14,22 @@
             "email": "a.butenka@gmail.com",
             "homepage": "http://smarttechdo.com",
             "role": "Developer"
+        },
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=5.3.0"
     },
     "autoload": {
-        "files": ["MysqliDb.php", "dbObject.php"]
+        "files": [
+            "helpers.php",
+            "MysqliDb.php",
+            "dbObject.php"
+        ]
     }
 }
